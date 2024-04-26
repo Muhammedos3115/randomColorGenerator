@@ -2,6 +2,7 @@
 
 const cols = document.querySelectorAll('.col');
 
+
 document.addEventListener('keydown', event => {
     event.preventDefault();
     if (event.code.toLowerCase() === 'space') {
@@ -98,3 +99,5 @@ function getColorsFromHash() {
 }
 
 setRandomColors(true);
+
+alert('For refresh colors with "space"');
